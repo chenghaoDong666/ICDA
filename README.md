@@ -134,6 +134,24 @@ Before running the code, download and extract the corresponding datasets to the 
   ```
 </details>
 
+#### Image Enhancement
+<details>
+  <summary>Illumination Enhancement Images</summary>
+  
+  Download `Illumination Enhancement Images` from [here](https://pan.baidu.com/s/1OYdIcCIX7AG8J_FfYKU5Sg?pwd=ICDA) and extract them to `$DATA_DIR/CycleGANCityscapes`.
+
+  ```
+  $DATA_DIR
+  ├── CycleGANCityscapes
+  │   ├── leftImg8bit
+  │   │   ├── train
+  │   │   ├── val
+  │   ├── gtFine
+  │   │   ├── train
+  │   │   ├── val
+  ├── ...
+  ```
+</details>
 
 ### Pretrained Models
 
@@ -144,7 +162,7 @@ We provide pretrained models for the UDA tasks.
 
 ### Qualitative ICDA Predictions
 
-To facilitate qualitative comparisons, validation set predictions of ICDA can be directly downloaded:
+To facilitate qualitative comparisons, test set predictions of ICDA can be directly downloaded:
 - [ICDA on Dark Zurich test](https://pan.baidu.com/s/1nKdBm-Sw9S624wHSxSE7OA?pwd=rvw4)
 
 ### ICDA Training
